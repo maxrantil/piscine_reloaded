@@ -1,10 +1,22 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_point.h                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mrantil <mrantil@student.hive.fi>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/11/01 10:45:43 by mrantil           #+#    #+#             */
+/*   Updated: 2021/11/01 10:49:13 by mrantil          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef FT_POINT_H
 # define FT_POINT_H
 
-typedef struct			s_point
+typedef struct s_point
 {
-	int x;
-	int y;
-}				t_point;
+	int	x;
+	int	y;
+}					t_point;
 
 #endif
