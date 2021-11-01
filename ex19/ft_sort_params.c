@@ -6,7 +6,7 @@
 /*   By: mrantil <mrantil@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/29 13:08:44 by mrantil           #+#    #+#             */
-/*   Updated: 2021/10/29 15:52:10 by mrantil          ###   ########.fr       */
+/*   Updated: 2021/11/01 17:54:58 by mrantil          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,9 @@ int	main(int argc, char **argv)
 {
 	int	i;
 
-	i = 1;
+	i = 0;
+	if (argc < 1)
+		return (0);
 	while (argv[i + 1])
 	{
 		if (ft_strcmp(argv[i], argv[i + 1]) > 0)

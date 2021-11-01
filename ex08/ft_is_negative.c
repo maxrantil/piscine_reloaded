@@ -6,16 +6,16 @@
 /*   By: mrantil <mrantil@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/28 17:49:31 by mrantil           #+#    #+#             */
-/*   Updated: 2021/10/28 17:55:49 by mrantil          ###   ########.fr       */
+/*   Updated: 2021/11/01 16:57:43 by mrantil          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+void	ft_putchar(char c);
 
 void	ft_is_negative(int n)
 {
 	if (n < 0)
-		write(1, "N", 1);
+		ft_putchar('N');
 	else
-		write(1, "P", 1);
+		ft_putchar('P');
 }

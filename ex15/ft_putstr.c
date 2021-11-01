@@ -6,7 +6,7 @@
 /*   By: mrantil <mrantil@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/29 10:49:37 by mrantil           #+#    #+#             */
-/*   Updated: 2021/10/29 10:56:30 by mrantil          ###   ########.fr       */
+/*   Updated: 2021/11/01 17:34:27 by mrantil          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,5 +22,4 @@ void	ft_putstr(char *str)
 		ft_putchar(str[i]);
 		i++;
 	}
-	return (0);
 }

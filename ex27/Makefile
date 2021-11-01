@@ -10,8 +10,9 @@ $(NAME):
 	gcc $(FLAGS) -I $(HEADER_DIR) $(SRC_PATH) -o $(NAME)
 
 clean:
-	rm -f $(NAME)
+	rm -f *.o
 
 fclean: clean
+	rm $(NAME)
 
-re: clean all
+re: fclean all

@@ -6,9 +6,11 @@
 /*   By: mrantil <mrantil@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/29 16:08:17 by mrantil           #+#    #+#             */
-/*   Updated: 2021/10/29 17:31:03 by mrantil          ###   ########.fr       */
+/*   Updated: 2021/11/01 17:57:09 by mrantil          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stdlib.h>
 
 int	ft_strlen(char *str)
 {

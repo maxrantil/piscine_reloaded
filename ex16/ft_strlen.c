@@ -6,16 +6,21 @@
 /*   By: mrantil <mrantil@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/29 10:57:41 by mrantil           #+#    #+#             */
-/*   Updated: 2021/10/29 11:05:57 by mrantil          ###   ########.fr       */
+/*   Updated: 2021/11/01 17:38:46 by mrantil          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_strlen(char *str)
 {
 	int	counter;
+	int	i;
 
 	counter = 0;
-	while (*str)
+	i = 0;
+	while (str[i])
+	{
 		counter++;
+		i++;
+	}
 	return (counter);
 }

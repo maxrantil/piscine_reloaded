@@ -6,7 +6,7 @@
 /*   By: mrantil <mrantil@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 15:09:31 by mrantil           #+#    #+#             */
-/*   Updated: 2021/11/01 16:22:09 by mrantil          ###   ########.fr       */
+/*   Updated: 2021/11/01 17:14:07 by mrantil          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,6 @@ int	main(int argc, char **argv)
 	int			fd;
 
 	fd = open(argv[1], O_RDONLY);
-	if (fd == -1)
-	{
-		ft_putstr("open() error.\n");
-	}
 	if (ft_argc(argc))
 	{
 		while (read(fd, buf, BUF_SIZE))
