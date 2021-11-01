@@ -6,13 +6,13 @@
 /*   By: mrantil <mrantil@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/28 17:38:03 by mrantil           #+#    #+#             */
-/*   Updated: 2021/11/01 17:03:45 by mrantil          ###   ########.fr       */
+/*   Updated: 2021/11/01 18:46:37 by mrantil          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_putchar(char c);
 
-void	ft_put_numbers(void)
+void	ft_print_numbers(void)
 {
 	char	i;
 
