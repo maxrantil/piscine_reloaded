@@ -6,7 +6,7 @@
 /*   By: mrantil <mrantil@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 15:09:31 by mrantil           #+#    #+#             */
-/*   Updated: 2021/11/01 17:14:07 by mrantil          ###   ########.fr       */
+/*   Updated: 2021/11/02 11:20:25 by mrantil          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@ int	main(int argc, char **argv)
 	{
 		while (read(fd, buf, BUF_SIZE))
 		{
-			write(1, &fd, 1);
 			ft_putstr(buf);
 		}
 		close(fd);

@@ -6,10 +6,13 @@
 /*   By: mrantil <mrantil@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 19:22:23 by mrantil           #+#    #+#             */
-/*   Updated: 2021/11/01 19:22:46 by mrantil          ###   ########.fr       */
+/*   Updated: 2021/11/02 11:21:12 by mrantil          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_header.h"
 
-void	ft_putchar(char c);
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
